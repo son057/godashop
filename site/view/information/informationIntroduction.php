@@ -51,7 +51,12 @@
                     <!-- Hình ảnh 3 -->
                     <img src="../upload/anh_3.jpg" alt="Hình ảnh 3 GodaShop" class="shop-image"
                         style="width: 100%; max-width: 600px; margin: 20px auto; display: block;">
-
+                    <p><span>GodaShop không chỉ là một cửa hàng mỹ phẩm, mà còn là điểm đến lý tưởng cho những ai đam mê
+                            làm đẹp, muốn khám phá và tỏa sáng theo cách riêng của mình. Với tầm nhìn trở thành thương
+                            hiệu mỹ phẩm trực tuyến hàng đầu tại Việt Nam, GodaShop không ngừng cải tiến và đổi mới,
+                            mang đến giá trị vượt trội, giúp mỗi khách hàng tự tin hơn trong hành trình chăm sóc và làm
+                            đẹp bản thân. Nếu bạn đang tìm kiếm một nơi đáng tin cậy để mua sắm mỹ phẩm, GodaShop chắc
+                            chắn là lựa chọn hoàn hảo!</span></p>
                     <!-- Hình ảnh 4 -->
                     <img src="../upload/anh_4.jpg" alt="Hình ảnh 4 GodaShop" class="shop-image"
                         style="width: 100%; max-width: 600px; margin: 20px auto; display: block;">
