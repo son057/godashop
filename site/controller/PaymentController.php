@@ -13,8 +13,9 @@ class PaymentController
         }
         //Hiển thị thông tin đơn hàng
         $email = "khachvanglai@gmail.com";
-        if (!empty($_SESSION['email'])) {
-            $email = $_SESSION['email'];
+        if (empty($_SESSION['email'])) {
+            header("location: /");
+            return;
         }
         $customerRepository = new CustomerRepository();
         $customer = $customerRepository->findEmail($email);
@@ -27,8 +28,9 @@ class PaymentController
 
         //lưu đơn hàng
         $email = "khachvanglai@gmail.com";
-        if (!empty($_SESSION['email'])) {
-            $email = $_SESSION['email'];
+        if (empty($_SESSION['email'])) {
+            header('location: /site');
+            return;
         }
         $customerRepository = new CustomerRepository();
         $customer = $customerRepository->findEmail($email);

@@ -75,7 +75,7 @@ class ProductRepository extends BaseRepository
 		$result = $conn->query($sql);
 		$row = $result->fetch_assoc();
 		$number = $row['number'];
-		
+
 		return $number;
 	}
 
